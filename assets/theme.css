@@ -9887,5 +9887,17 @@ split-lines {
     color: #000;
     font-weight: 700;
 }
+.boxcontainflex1 {
+    flex: 0 0 25%;
+    max-width: calc(25% - 20px);
+    margin: 0 10px;
+}
+
+.boxcontainflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
 
 /* cls007 end */
