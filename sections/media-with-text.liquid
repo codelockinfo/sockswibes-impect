@@ -96,7 +96,7 @@
           {%- endif -%}
         </div>
 
-        {%- capture content_class -%}clsdv media-with-text__content {% unless section.settings.spacing == 'none' %}rounded{% endunless %}{%- endcapture -%}
+        {%- capture content_class -%}customedia media-with-text__content {% unless section.settings.spacing == 'none' %}rounded{% endunless %}{%- endcapture -%}
         <div
           {% render 'surface',
             class: content_class,
