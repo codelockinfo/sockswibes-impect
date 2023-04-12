@@ -115,6 +115,7 @@
         "blocks": {
           "free-shipping": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "picto-box",
               "mobile_icon_width": 24,
@@ -128,6 +129,7 @@
           },
           "customer-support": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "picto-customer-support",
               "mobile_icon_width": 24,
@@ -141,6 +143,7 @@
           },
           "discount": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "picto-coupon",
               "mobile_icon_width": 24,
@@ -154,6 +157,7 @@
           },
           "payment": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "picto-lock",
               "mobile_icon_width": 24,
@@ -186,20 +190,10 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "newsletter": {
-            "type": "newsletter",
-            "settings": {
-              "image": "{{shop.brand.logo}}",
-              "image_width": 150,
-              "heading_size": "h3",
-              "title": "Sign up for new stories and personal offers",
-              "content": ""
-            }
-          },
           "c8af5015-6e7f-4017-b185-615ca62cac88": {
             "type": "links",
             "settings": {
-              "menu": "socksmenu",
+              "menu": "footer1",
               "show_menu_title": true
             }
           },
@@ -219,7 +213,6 @@
           }
         },
         "block_order": [
-          "newsletter",
           "c8af5015-6e7f-4017-b185-615ca62cac88",
           "030a3541-3fc0-4942-8fbc-6f2ab8e2c54d",
           "6ac2d87d-c43d-429d-a368-fc26ceda5460"
