@@ -1,26 +1,26 @@
 {%- assign newsletter_block = section.blocks | where: 'type', 'newsletter' | first -%}
 
 {%- if section.blocks.size > 3 -%}
-<style>
-  @media screen and (min-width: 1000px) {
-    #shopify-section-{{ section.id }} {
-      {%- if newsletter_block != blank -%}
-        --footer-block-list-gap: var(--spacing-10);
-      {%- endif -%}
+  <style>
+    @media screen and (min-width: 1000px) {
+      #shopify-section-{{ section.id }} {
+        {%- if newsletter_block != blank -%}
+          --footer-block-list-gap: var(--spacing-10);
+        {%- endif -%}
 
-      --footer-block-list-justify-content: space-between;
+        --footer-block-list-justify-content: space-between;
+      }
     }
-  }
-</style>
+  </style>
 {%- endif -%}
 
 <div class="footer">
   <div class="container">
     <div class="footer__wrapper">
       {%- comment -%}
-      ------------------------------------------------------------------------------------------------------------------
-      BLOCK AREA
-      ------------------------------------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------------------------------------
+        BLOCK AREA
+        ------------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
 
       {%- if section.blocks.size > 0 -%}
@@ -41,7 +41,20 @@
                     {%- endif -%}
                   </div>
                 {%- endif -%}
+              {%- when 'socialicon' -%}
+                <div class="mainsocialflex">
+                  <div class="socailicon">
+                    <div class="socialogistic">
+                      <a href="{{block.settings.iconurl1}}"><i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                    </div>
+                  </div>
 
+                  <div class="socailicon">
+                    <div class="socialogistic">
+                      <a href="{{block.settings.iconurl2}}"><i class="fa fa-instagram" aria-hidden="true"></i> </a>
+                    </div>
+                  </div>
+                </div>
               {%- when 'links' -%}
                 {%- if block.settings.menu != blank -%}
                   <div class="footer__block footer__block--menu" {{ block.shopify_attributes }}>
@@ -65,7 +78,11 @@
                     {%- capture sizes -%}{{ block.settings.image_width }}px{%- endcapture -%}
                     {%- capture widths -%}{{ block.settings.image_width }}, {{ block.settings.image_width | times: 2 | at_most: block.settings.image.width }}{%- endcapture -%}
                     {%- capture style -%}max-width: {{ block.settings.image_width }}px{%- endcapture -%}
-                    {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', style: style, sizes: sizes, widths: widths -}}
+                    {{-
+                      block.settings.image
+                      | image_url: width: block.settings.image.width
+                      | image_tag: loading: 'lazy', style: style, sizes: sizes, widths: widths
+                    -}}
                   {%- endif -%}
 
                   <div class="v-stack gap-6">
@@ -92,7 +109,15 @@
                         <input type="hidden" name="contact[tags]" value="newsletter">
 
                         {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}
-                        {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send', self_submit: true -%}
+                        {%- render 'input',
+                          name: 'contact[email]',
+                          label: label,
+                          type: 'email',
+                          required: true,
+                          autocomplete: 'email',
+                          enterkeyhint: 'send',
+                          self_submit: true
+                        -%}
                       {%- endif -%}
                     {%- endform -%}
                   </div>
@@ -103,16 +128,16 @@
       {%- endif -%}
 
       {%- comment -%}
-      ------------------------------------------------------------------------------------------------------------------
-      SECONDARY AREA
-      ------------------------------------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------------------------------------
+        SECONDARY AREA
+        ------------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
 
       <div class="footer__aside empty:hidden">
         {%- comment -%}
-        ----------------------------------------------------------------------------------------------------------------
-        SOCIAL MEDIA + LOCALIZATION
-        ----------------------------------------------------------------------------------------------------------------
+          ----------------------------------------------------------------------------------------------------------------
+          SOCIAL MEDIA + LOCALIZATION
+          ----------------------------------------------------------------------------------------------------------------
         {%- endcomment -%}
 
         {%- if section.settings.show_social_media -%}
@@ -140,11 +165,19 @@
                 {%- endif -%}
 
                 {%- if country_selector -%}
-                  {%- render 'localization-selector', type: 'country', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag, popover_horizontal_position: popover_horizontal_position -%}
+                  {%- render 'localization-selector',
+                    type: 'country',
+                    show_country_name: section.settings.show_country_name,
+                    show_country_flag: section.settings.show_country_flag,
+                    popover_horizontal_position: popover_horizontal_position
+                  -%}
                 {%- endif -%}
 
                 {%- if locale_selector -%}
-                  {%- render 'localization-selector', type: 'locale', popover_horizontal_position: popover_horizontal_position -%}
+                  {%- render 'localization-selector',
+                    type: 'locale',
+                    popover_horizontal_position: popover_horizontal_position
+                  -%}
                 {%- endif -%}
               </div>
             {%- endif -%}
@@ -152,9 +185,9 @@
         {%- endif -%}
 
         {%- comment -%}
-        ----------------------------------------------------------------------------------------------------------------
-        COPYRIGHT + PAYMENT METHODS
-        ----------------------------------------------------------------------------------------------------------------
+          ----------------------------------------------------------------------------------------------------------------
+          COPYRIGHT + PAYMENT METHODS
+          ----------------------------------------------------------------------------------------------------------------
         {%- endcomment -%}
 
         <div class="footer__aside-bottom">
@@ -166,7 +199,9 @@
             </div>
           {%- endif -%}
 
-          <p class="footer__copyright text-sm text-subdued">© {{ 'now' | date: '%Y' }}, {{ shop.name }}. {{ powered_by_link }}</p>
+          <p class="footer__copyright text-sm text-subdued">
+            © {{ 'now' | date: '%Y' }}, {{ shop.name }}. {{ powered_by_link }}
+          </p>
         </div>
       </div>
     </div>
@@ -195,8 +230,12 @@
         </div>
 
         <div class="h-stack gap-2">
-          <button type="button" class="button button--sm" data-action="accept">{{ 'general.privacy_bar.accept' | t }}</button>
-          <button type="button" class="button button--sm button--subdued" data-action="decline">{{ 'general.privacy_bar.decline' | t }}</button>
+          <button type="button" class="button button--sm" data-action="accept">
+            {{ 'general.privacy_bar.accept' | t }}
+          </button>
+          <button type="button" class="button button--sm button--subdued" data-action="decline">
+            {{ 'general.privacy_bar.decline' | t }}
+          </button>
         </div>
       </div>
     </div>
@@ -316,6 +355,22 @@
           "id": "show_menu_title",
           "label": "Show menu title",
           "default": true
+        }
+      ]
+    },
+       {
+      "type": "socialicon",
+      "name": "socialicon",
+      "settings": [
+        {
+          "type": "url",
+          "id": "iconurl1",
+           "label": "social icon1"
+        },
+        {
+          "type": "url",
+          "id": "iconurl2",
+           "label": "social icon2"
         }
       ]
     },
