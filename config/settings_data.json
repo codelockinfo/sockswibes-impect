@@ -24,7 +24,7 @@
     "text_font": "din_next_n4",
     "show_page_transition": true,
     "heading_apparition": "split_fade",
-    "product_color_display": "swatch",
+    "product_color_display": "hide",
     "product_info_alignment": "start",
     "social_facebook": "#",
     "social_twitter": "#",
