@@ -103,36 +103,31 @@
     "62fa1b30-eeee-4fec-b788-9157171a2ef1": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "template--18556706652433__62fa1b30-eeee-4fec-b788-9157171a2ef1-16812842668af2d7dc-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "template--18556706652433__62fa1b30-eeee-4fec-b788-9157171a2ef1-16812842668af2d7dc-1": {
+        "114fae87-3ae5-4858-9bea-ee0c2e2671f4": {
           "type": "heading",
           "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
+            "text": "19€",
+            "heading_tag": "h2"
           }
         },
-        "template--18556706652433__62fa1b30-eeee-4fec-b788-9157171a2ef1-16812842668af2d7dc-2": {
-          "type": "richtext",
+        "f797d67f-3260-4cc1-8b85-d24d97d2dbf2": {
+          "type": "heading",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "text": "2 PAIRES",
+            "heading_tag": "h2"
           }
         }
       },
       "block_order": [
-        "template--18556706652433__62fa1b30-eeee-4fec-b788-9157171a2ef1-16812842668af2d7dc-0",
-        "template--18556706652433__62fa1b30-eeee-4fec-b788-9157171a2ef1-16812842668af2d7dc-1",
-        "template--18556706652433__62fa1b30-eeee-4fec-b788-9157171a2ef1-16812842668af2d7dc-2"
+        "114fae87-3ae5-4858-9bea-ee0c2e2671f4",
+        "f797d67f-3260-4cc1-8b85-d24d97d2dbf2"
       ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "auto",
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/four-pair-feet-christmas-socks-mom-children-lying-couch-enjoying-christmas-time-together-four-pair-feet-196772594_ec6ef266-6119-4915-92a7-d94834de6543.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
