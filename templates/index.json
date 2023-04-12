@@ -116,18 +116,11 @@
             "text": "2 PAIRES",
             "heading_tag": "h2"
           }
-        },
-        "2247ac5d-3a73-4ec8-b0f8-5f003e458e53": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
         }
       },
       "block_order": [
         "114fae87-3ae5-4858-9bea-ee0c2e2671f4",
-        "f797d67f-3260-4cc1-8b85-d24d97d2dbf2",
-        "2247ac5d-3a73-4ec8-b0f8-5f003e458e53"
+        "f797d67f-3260-4cc1-8b85-d24d97d2dbf2"
       ],
       "settings": {
         "full_width": true,
