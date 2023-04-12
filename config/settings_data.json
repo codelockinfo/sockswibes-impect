@@ -217,13 +217,23 @@
               "iconurl1": "",
               "iconurl2": ""
             }
+          },
+          "e178efbd-d34e-4ff5-af35-0fb26943a7a3": {
+            "type": "newsletter",
+            "settings": {
+              "image_width": 150,
+              "heading_size": "h3",
+              "title": "Sign up to our newsletter",
+              "content": ""
+            }
           }
         },
         "block_order": [
           "c8af5015-6e7f-4017-b185-615ca62cac88",
           "030a3541-3fc0-4942-8fbc-6f2ab8e2c54d",
           "6ac2d87d-c43d-429d-a368-fc26ceda5460",
-          "a0cb8e7b-f636-4f25-bdf3-cd50b27db154"
+          "a0cb8e7b-f636-4f25-bdf3-cd50b27db154",
+          "e178efbd-d34e-4ff5-af35-0fb26943a7a3"
         ],
         "settings": {
           "show_social_media": false,
