@@ -9928,6 +9928,9 @@ split-lines {
     text-transform: capitalize;
     line-height: 80px;
 }
+.lemmantitle {
+    margin-bottom: 25px;
+}
 
 
 /* cls007 end */
