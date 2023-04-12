@@ -9881,4 +9881,10 @@ split-lines {
     margin-top: 3%;
     border-radius: 50px;
 }
+.brodbutto a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+}
 /* cls007 end */
