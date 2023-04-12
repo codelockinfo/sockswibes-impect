@@ -9866,5 +9866,8 @@ split-lines {
 .shopify-section--media-with-text{
   background-color: #efe5da !important;
 }
+.customedia .h2 {
+    text-align: left;
+}
 
 /* cls007 end */
