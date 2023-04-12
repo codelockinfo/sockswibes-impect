@@ -4,6 +4,18 @@
       <h2 class="lemtitle">{{ section.settings.lemotitle }}</h2>
       <h4 class="subtitle">{{ section.settings.lenosub }}</h4>
     </div>
+    <div class="boxcontainflex">
+      {% for block in section.blocks %}
+        <div class="boxcontainflex1">
+          <div class="boxcontainflexcontan">
+            <div>
+              <img src="{{ block.settings.kome | img_url:'master' }}" class="komimage">
+            </div>
+            <p class="subtosubtitle">{{ block.settings.subtitle }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
 
@@ -29,10 +41,15 @@
 "name" : "block",
 "settings" : [
     {
- "id": "kom_clape2",
+ "id": "kome",
  "type": "image_picker",
-  "label": "Banner Image"
- }
+  "label": "Image"
+ },
+  {
+  "id" : "subtitle",
+  "type" : "text",
+  "label" : "Sub Title"
+}
 ]
 }
 
