@@ -9920,6 +9920,7 @@ split-lines {
     font-size: 24px;
     text-align: center;
     line-height: 30px;
+  padding: 10px 0px;
 }
 .lemtitle {
     font-size: 72px;
