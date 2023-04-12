@@ -1,33 +1,48 @@
+<div class="populatesction">
+  <div class="popularcontain">
+    <div class="lemmantitle">
+      <h2 class="lemtitle">{{ section.settings.lemotitle }}</h2>
+      <h4 class="subtitle">{{ section.settings.lenosub }}</h4>
+    </div>
+  </div>
+</div>
+
 {% schema %}
 {
-  "name": "Popular Section",
-  "settings": [
+"name": "popularsection",
+
+"settings": [
+{
+  "id" : "lemotitle",
+  "type" : "text",
+  "label" : "Heading"
+},
+{
+  "id" : "lenosub",
+  "type" : "text",
+  "label" : "Sub Title"
+}
+],
+"blocks":[
+{
+"type" : "block",
+"name" : "block",
+"settings" : [
     {
-      "type": "text",
-      "id": "title",
-      "label": "Slideshow"
-    }
-  ],
-  "blocks": [
-     {
-       "name": "Slide",
-       "type": "slide",
-       "settings": [
-         {
-           "type": "image_picker",
-           "id": "image",
-           "label": "Image"
-         }
-       ]
-     }
-   ],
-  "presets": [
-    {
-      "name": "popularsection",
-      "settings": {
-        "title": "popularsection"
-      }
-    }
-  ]
+ "id": "kom_clape2",
+ "type": "image_picker",
+  "label": "Banner Image"
+ }
+]
+}
+
+],
+"presets" : [
+{
+  "name" : "popularsection",
+  "category" : "popularsection"
+
+  }
+]
 }
 {% endschema %}
