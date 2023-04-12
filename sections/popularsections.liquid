@@ -11,7 +11,10 @@
             <div>
               <img src="{{ block.settings.kome | img_url:'master' }}" class="komimage">
             </div>
-            <p class="subtosubtitle">{{ block.settings.subtitle }}</p>
+            <div class="signlineflex">
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <p class="subtosubtitle">{{ block.settings.subtitle }}</p>
+            </div>
           </div>
         </div>
       {% endfor %}
