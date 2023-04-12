@@ -200,14 +200,14 @@
           "030a3541-3fc0-4942-8fbc-6f2ab8e2c54d": {
             "type": "links",
             "settings": {
-              "menu": "main-menu",
+              "menu": "footer2",
               "show_menu_title": true
             }
           },
           "6ac2d87d-c43d-429d-a368-fc26ceda5460": {
             "type": "links",
             "settings": {
-              "menu": "shop",
+              "menu": "info-livraison",
               "show_menu_title": true
             }
           }
