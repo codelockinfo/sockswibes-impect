@@ -9875,7 +9875,10 @@ split-lines {
 .customedia .button--xl{
       border-radius: inherit;
 }
-body{
-   background-color: #efe5da;
+.brodbutto {
+    border: 2px solid #000;
+    padding: 7px 30px;
+    margin-top: 3%;
+    border-radius: 50px;
 }
 /* cls007 end */
