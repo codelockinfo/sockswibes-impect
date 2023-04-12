@@ -9946,5 +9946,14 @@ split-lines {
     flex-wrap: wrap;
       background-color: #fff;
 }
-
+.signlineflexdesign {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 13px;
+    background-color: #fff;
+    border: 1.5px solid #000;
+    margin-bottom: 12px;
+    border-radius: 25px;
+}
 /* cls007 end */
