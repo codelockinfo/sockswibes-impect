@@ -9940,6 +9940,11 @@ split-lines {
 .lemmantitle {
     margin-bottom: 25px;
 }
-
+.signlineflexdesign{
+      display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+      background-color: #fff;
+}
 
 /* cls007 end */
