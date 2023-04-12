@@ -1,9 +1,9 @@
 {%- render 'section-spacing-collapsing' -%}
 
 {%- comment -%}
-------------------------------------------------------------------------------------------------------------------------
-CSS
-------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------------
+  CSS
+  ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
 <style>
@@ -35,16 +35,19 @@ CSS
 </style>
 
 {%- comment -%}
-------------------------------------------------------------------------------------------------------------------------
-LIQUID
-------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------------
+  LIQUID
+  ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
 <div {% render 'section-properties' %}>
   <media-with-text class="media-with-text {% if section.settings.spacing == 'none' %}{% if section.settings.full_width %}full-bleed{% else %}rounded{% endif %}{% endif %}">
     {%- for block in section.blocks -%}
       <div id="block-{{ section.id }}-{{ block.id }}" class="media-with-text__item" {{ block.shopify_attributes }}>
-        <div class="media-with-text__media {% unless section.settings.spacing == 'none' %}rounded{% endunless %}" reveal-on-scroll="true">
+        <div
+          class="media-with-text__media {% unless section.settings.spacing == 'none' %}rounded{% endunless %}"
+          reveal-on-scroll="true"
+        >
           {%- if block.type == 'image' -%}
             {%- if block.settings.image != blank -%}
               {%- assign width_ratio = 100.0 | divided_by: block.settings.media_width -%}
@@ -52,22 +55,40 @@ LIQUID
 
               {%- capture sizes -%}(max-width: 999px) 100vw, min({{ maximum_image_width | ceil }}px, {{ block.settings.media_width }}vw){% endcapture %}
 
-              {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600' -}}
+              {{-
+                block.settings.image
+                | image_url: width: block.settings.image.width
+                | image_tag:
+                  loading: 'lazy',
+                  sizes: sizes,
+                  widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600'
+              -}}
             {%- else -%}
               {{- 'image' | placeholder_svg_tag: 'aspect-short placeholder' -}}
             {%- endif -%}
           {%- else -%}
             {%- if block.settings.video -%}
               <video-media autoplay>
-                {{- block.settings.video | video_tag: playslinline: true, muted: true, loop: true, preload: 'metadata' -}}
+                {{-
+                  block.settings.video
+                  | video_tag: playslinline: true, muted: true, loop: true, preload: 'metadata'
+                -}}
               </video-media>
             {%- else -%}
               <video-media host="{{ block.settings.external_video_url.type }}" autoplay>
                 <template>
                   {%- if block.settings.external_video_url.type == 'youtube' -%}
-                    <iframe src="https://www.youtube.com/embed/{{ block.settings.external_video_url.id }}?playsinline=1&autoplay=1&controls=0&mute=1&loop=1&playlist={{ block.settings.external_video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+                    <iframe
+                      src="https://www.youtube.com/embed/{{ block.settings.external_video_url.id }}?playsinline=1&autoplay=1&controls=0&mute=1&loop=1&playlist={{ block.settings.external_video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}"
+                      allow="autoplay; encrypted-media"
+                      allowfullscreen="allowfullscreen"
+                    ></iframe>
                   {%- elsif block.settings.external_video_url.type == 'vimeo' -%}
-                    <iframe src="https://player.vimeo.com/video/{{ block.settings.external_video_url.id }}?autoplay=1&autopause=1&background=1&loop=1&muted=1&transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}" allow="autoplay; encrypted-media;" allowfullscreen="allowfullscreen"></iframe>
+                    <iframe
+                      src="https://player.vimeo.com/video/{{ block.settings.external_video_url.id }}?autoplay=1&autopause=1&background=1&loop=1&muted=1&transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}"
+                      allow="autoplay; encrypted-media;"
+                      allowfullscreen="allowfullscreen"
+                    ></iframe>
                   {%- endif -%}
                 </template>
               </video-media>
@@ -75,15 +96,30 @@ LIQUID
           {%- endif -%}
         </div>
 
-        {%- capture content_class -%}media-with-text__content {% unless section.settings.spacing == 'none' %}rounded{% endunless %}{%- endcapture -%}
-        <div {% render 'surface', class: content_class, background: block.settings.background, background_gradient: block.settings.background_gradient, text_color: block.settings.text_color %}>
+        {%- capture content_class -%}clsdv media-with-text__content {% unless section.settings.spacing == 'none' %}rounded{% endunless %}{%- endcapture -%}
+        <div
+          {% render 'surface',
+            class: content_class,
+            background: block.settings.background,
+            background_gradient: block.settings.background_gradient,
+            text_color: block.settings.text_color
+          %}
+        >
           <div class="prose break-all {{ block.settings.text_position }}" reveal-on-scroll="true">
             {%- if block.settings.custom_icon != blank -%}
               {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
               {%- capture widths -%}{{ block.settings.icon_width }}, {{ block.settings.icon_width | times: 2 | at_most: block.settings.custom_icon.width }}{%- endcapture -%}
-              {{- block.settings.custom_icon | image_url: width: block.settings.custom_icon.width | image_tag: loading: 'lazy', sizes: sizes, widths: widths, class: 'media-with-text__icon' -}}
+              {{-
+                block.settings.custom_icon
+                | image_url: width: block.settings.custom_icon.width
+                | image_tag: loading: 'lazy', sizes: sizes, widths: widths, class: 'media-with-text__icon'
+              -}}
             {%- elsif block.settings.icon != 'none' -%}
-              {%- render 'icon' with block.settings.icon, width: block.settings.icon_width, height: block.settings.icon_width, class: 'media-with-text__icon' -%}
+              {%- render 'icon' with block.settings.icon,
+                width: block.settings.icon_width,
+                height: block.settings.icon_width,
+                class: 'media-with-text__icon'
+              -%}
             {%- endif -%}
 
             {%- if block.settings.subheading != blank -%}
@@ -99,7 +135,13 @@ LIQUID
             {{- block.settings.content -}}
 
             {%- if block.settings.link_text != blank -%}
-              {%- render 'button', href: block.settings.link_url, content: block.settings.link_text, size: 'xl', background: block.settings.button_background, text_color: block.settings.button_text_color -%}
+              {%- render 'button',
+                href: block.settings.link_url,
+                content: block.settings.link_text,
+                size: 'xl',
+                background: block.settings.button_background,
+                text_color: block.settings.button_text_color
+              -%}
             {%- endif -%}
           </div>
         </div>
