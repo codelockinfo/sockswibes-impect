@@ -9975,6 +9975,9 @@ split-lines {
     margin-right: 20px;
     border-radius: 50px;
 }
+i.fa.fa-instagram{
+      padding: 10px 12px;
+}
 @media only screen and (max-width: 1024px) {
 .desktop{
       display: none;
