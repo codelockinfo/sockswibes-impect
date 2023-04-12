@@ -39,13 +39,29 @@
           "message": {
             "type": "message",
             "settings": {
-              "text": "Announce something here",
+              "text": "Product title  Short Description  $19  Product title  Short Description  $19       LIVRAISON OFFERTE DÈS 54€ D'ACHAT   🎁",
+              "url": ""
+            }
+          },
+          "c656df9d-822e-40f4-be99-7f27da4615a6": {
+            "type": "message",
+            "settings": {
+              "text": "Product title  Short Description  $19  Product title  Short Description  $19       LIVRAISON OFFERTE DÈS 54€ D'ACHAT   🎁",
+              "url": ""
+            }
+          },
+          "cd58a72b-3b54-4996-a2f7-6a6f69bef9b2": {
+            "type": "message",
+            "settings": {
+              "text": "Product title  Short Description  $19  Product title  Short Description  $19       LIVRAISON OFFERTE DÈS 54€ D'ACHAT   🎁",
               "url": ""
             }
           }
         },
         "block_order": [
-          "message"
+          "message",
+          "c656df9d-822e-40f4-be99-7f27da4615a6",
+          "cd58a72b-3b54-4996-a2f7-6a6f69bef9b2"
         ],
         "settings": {
           "enable_sticky": false,
@@ -244,7 +260,12 @@
           "show_locale_selector": true,
           "show_privacy_bar": true,
           "privacy_bar_title": "Cookie policy",
-          "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+          "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>",
+          "urldetail1": "",
+          "urldetail2": "",
+          "urldetail3": "",
+          "urldetail4": "",
+          "urldetail5": ""
         }
       },
       "newsletter-popup": {
