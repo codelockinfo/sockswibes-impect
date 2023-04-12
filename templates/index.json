@@ -1,1 +1,601 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/four-pair-feet-christmas-socks-mom-children-lying-couch-enjoying-christmas-time-together-four-pair-feet-196772594.jpg","content_max_width":780,"mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","subheading":"Tell your story","title":"Slide title","heading_tag":"h0","button_text":"","button_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":30,"background":"","background_gradient":""}},"slide-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/cropped-view-woman-pajamas-sitting-wooden-floor-home-hot-drink-cookies-reading-book-everyday-cozy-life-131612820.jpg","content_max_width":780,"mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","subheading":"Tell your story","title":"Slide title","heading_tag":"h0","button_text":"","button_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":30,"background":"","background_gradient":""}}},"block_order":["slide-1","slide-2"],"settings":{"full_width":true,"allow_transparent_header":true,"image_size":"md","controls_type":"numbers","transition_type":"fade_with_text","autoplay":true,"cycle_speed":6,"background":"#f2f2f2","background_gradient":"linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"}},"image-link-blocks":{"type":"image-link-blocks","blocks":{"1664424046b00c932c-0":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/IMG_4781.._451x_88ebf998-6b17-456c-840b-f590ba17bb21.jpg","stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"1664424046b00c932c-1":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/IMG_465352_451x_3ed12177-8f72-48c2-8b2d-0e26b3becad0.jpg","stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"1664424046b00c932c-2":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/IMG_4730..._451x_93511448-2a7c-41b0-a50b-f99e17aa7651.jpg","stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"1664424046b00c932c-3":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/33_451x_b044306e-a9ae-4d85-a2b4-61517c931690.jpg","stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"91f03437-6cc6-484f-877e-550b8f60bfdf":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/IMG_4730..._600x_965d40fb-7e5b-40c5-be6c-42277b5e4199.webp","stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["1664424046b00c932c-0","1664424046b00c932c-1","1664424046b00c932c-2","1664424046b00c932c-3","91f03437-6cc6-484f-877e-550b8f60bfdf"],"settings":{"full_width":true,"block_size":"large","subheading":"","title":"Special Categories","content":"","link_url":"","link_text":"","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}},"collection-list":{"type":"collection-list","blocks":{"collection-1":{"type":"collection","settings":{"collection":"men","subheading":"","title":"","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"collection-2":{"type":"collection","settings":{"collection":"women","subheading":"","title":"","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"collection-3":{"type":"collection","settings":{"collection":"children","subheading":"","title":"","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}}},"block_order":["collection-1","collection-2","collection-3"],"settings":{"full_width":true,"stack_collections":false,"collections_per_row":3,"show_progress_bar":false,"subheading":"","title":"Collection list","content":"","link_url":"","link_text":"View all","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}},"featured-collection":{"type":"featured-collection","settings":{"collection":"","products":["crikbuzz-combo-pack-of-loafer-socks-beer-can-cover-black","crikbuzz-combo-pack-of-loafer","crikbuzz-combo-pack-of-loafer-socks-beer-can-cover-grey","crikbuzz-combo-pack-of-loafer-socks-beer-can-cover-red"],"full_width":true,"stack_products":false,"show_progress_bar":false,"products_count":6,"products_per_row_mobile":"2","products_per_row_desktop":4,"subheading":"","title":"Featured collection","content":"","link_url":"","link_text":"View all","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","product_card_background":"","product_card_text_color":""}},"media-grid":{"type":"media-grid","blocks":{"item-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/BRO7006S_PO3_1024x_34258b7d-d867-4499-ab69-312438bb925a.jpg","title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":2,"desktop_row_span":2,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/BRO611A-PO2_451x_b945eb20-aa97-4fd0-9821-6a51903a7f38.webp","title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":1,"desktop_row_span":1,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/BRO611B-PO2_451x_030c6b7d-2f8b-4171-9ece-4efec1a0fc83.webp","title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":1,"desktop_row_span":1,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"29246d34-c6e0-4373-84f6-b15e57736a00":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/1_451x_29f0405f-884e-434c-a022-235d78e53c01.webp","title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":2,"desktop_row_span":1,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["item-1","item-2","item-3","29246d34-c6e0-4373-84f6-b15e57736a00"],"settings":{"full_width":true,"reduce_width":false,"desktop_row_height":290,"mobile_row_height":150,"background":"","background_gradient":""}},"multiple-images-with-text":{"type":"multiple-images-with-text","blocks":{"1664424486a2b084ab-0":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/edit-2_451x_c517de07-43f6-49a6-8ffd-08b863ee67e9.webp","image_rotation_degrees":-2,"subheading":"","title":"Heading 1","content":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","button_url":"","button_text":""}},"1664424486a2b084ab-1":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/BRO7252-grey_451x_596d4ad9-245b-4d03-b06c-01d3dc98fe09.webp","image_rotation_degrees":1.5,"subheading":"","title":"Heading 2","content":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","button_url":"","button_text":""}}},"block_order":["1664424486a2b084ab-0","1664424486a2b084ab-1"],"settings":{"full_width":true,"images_layout":"scattered","collage_images_alignment":"middle","background":"","background_gradient":"","text_color":"","button_background":"","button_text_color":""}},"featured-product":{"type":"featured-product","blocks":{"vendor":{"type":"vendor","settings":{}},"title":{"type":"title","settings":{"heading_tag":"h2"}},"badges":{"type":"badges","settings":{}},"price":{"type":"price","settings":{"show_taxes_notice":false}},"rating":{"type":"rating","settings":{"show_empty":false}},"separator":{"type":"separator","settings":{}},"description":{"type":"description","settings":{"collapse_content":false}},"variant-picker":{"type":"variant_picker","settings":{"hide_sold_out_variants":false,"stack_blocks":true,"selector_mode":"block","color_mode":"color","size_chart_page":""}},"quantity-selector":{"type":"quantity_selector","settings":{}},"buy-buttons":{"type":"buy_buttons","settings":{"show_payment_button":true,"atc_button_background":"","atc_button_text_color":"","payment_button_background":"","payment_button_text_color":""}}},"block_order":["vendor","title","badges","price","rating","separator","description","variant-picker","quantity-selector","buy-buttons"],"settings":{"full_width":false,"product":"crikbuzz-combo-pack-of-loafer-socks-beer-can-cover-grey","desktop_media_width":55,"desktop_media_layout":"carousel_thumbnails_left","mobile_media_size":"expanded","mobile_carousel_control":"floating_dots","enable_video_autoplay":true,"enable_video_looping":false,"enable_image_zoom":true,"max_image_zoom_level":3,"background":"#ffffff","background_gradient":"","text_color":"","input_background":"rgba(0,0,0,0)","input_text_color":""}},"faq":{"type":"faq","blocks":{"166442457738b23caf-0":{"type":"item","settings":{"title":"Do you ship overseas?","content":"<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"}},"166442457738b23caf-1":{"type":"item","settings":{"title":"How long will it take to get my orders?","content":"<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"}},"166442457738b23caf-2":{"type":"item","settings":{"title":"Any question?","content":"<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"}}},"block_order":["166442457738b23caf-0","166442457738b23caf-1","166442457738b23caf-2"],"settings":{"full_width":false,"subheading":"","title":"FAQ","content":"<p>Use this text to share information about your product or shipping policies.<\/p>","team_avatar_width":160,"support_hours":"Our customer support is available Monday to Friday: 8am-8:30pm.","answer_time":"Average answer time: 24h","button_text":"","button_url":"","text_position":"start","background":"#ffffff","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","button_background":"","button_text_color":"","accordion_background":"","accordion_text_color":""}}},"order":["slideshow","image-link-blocks","collection-list","featured-collection","media-grid","multiple-images-with-text","featured-product","faq"]}
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/four-pair-feet-christmas-socks-mom-children-lying-couch-enjoying-christmas-time-together-four-pair-feet-196772594.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "slide-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cropped-view-woman-pajamas-sitting-wooden-floor-home-hot-drink-cookies-reading-book-everyday-cozy-life-131612820.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "slide-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "numbers",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+      }
+    },
+    "85a1d818-4532-488d-87ff-9a691abdb3ad": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--18556706652433__85a1d818-4532-488d-87ff-9a691abdb3ad-16812829985f195228-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_451x_29f0405f-884e-434c-a022-235d78e53c01.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "PRODUCT PROMISE GOES HERE",
+            "content": "<p>Pour les hommes comme-vous, c'est classique, sobre et chic<\/p>",
+            "link_text": "COMMANDANDER DES 19$",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18556706652433__85a1d818-4532-488d-87ff-9a691abdb3ad-16812829985f195228-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "image-link-blocks": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "1664424046b00c932c-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4781.._451x_88ebf998-6b17-456c-840b-f590ba17bb21.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1664424046b00c932c-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_465352_451x_3ed12177-8f72-48c2-8b2d-0e26b3becad0.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1664424046b00c932c-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4730..._451x_93511448-2a7c-41b0-a50b-f99e17aa7651.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1664424046b00c932c-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/33_451x_b044306e-a9ae-4d85-a2b4-61517c931690.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "91f03437-6cc6-484f-877e-550b8f60bfdf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4730..._600x_965d40fb-7e5b-40c5-be6c-42277b5e4199.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "1664424046b00c932c-0",
+        "1664424046b00c932c-1",
+        "1664424046b00c932c-2",
+        "1664424046b00c932c-3",
+        "91f03437-6cc6-484f-877e-550b8f60bfdf"
+      ],
+      "settings": {
+        "full_width": true,
+        "block_size": "large",
+        "subheading": "",
+        "title": "Special Categories",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "men",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "women",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "children",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Collection list",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "crikbuzz-combo-pack-of-loafer-socks-beer-can-cover-black",
+          "crikbuzz-combo-pack-of-loafer",
+          "crikbuzz-combo-pack-of-loafer-socks-beer-can-cover-grey",
+          "crikbuzz-combo-pack-of-loafer-socks-beer-can-cover-red"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "media-grid": {
+      "type": "media-grid",
+      "blocks": {
+        "item-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRO7006S_PO3_1024x_34258b7d-d867-4499-ab69-312438bb925a.jpg",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRO611A-PO2_451x_b945eb20-aa97-4fd0-9821-6a51903a7f38.webp",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRO611B-PO2_451x_030c6b7d-2f8b-4171-9ece-4efec1a0fc83.webp",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "29246d34-c6e0-4373-84f6-b15e57736a00": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_451x_29f0405f-884e-434c-a022-235d78e53c01.webp",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "29246d34-c6e0-4373-84f6-b15e57736a00"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "multiple-images-with-text": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "1664424486a2b084ab-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/edit-2_451x_c517de07-43f6-49a6-8ffd-08b863ee67e9.webp",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "1664424486a2b084ab-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRO7252-grey_451x_596d4ad9-245b-4d03-b06c-01d3dc98fe09.webp",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664424486a2b084ab-0",
+        "1664424486a2b084ab-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "scattered",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "featured-product": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant-picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity-selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy-buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "separator",
+        "description",
+        "variant-picker",
+        "quantity-selector",
+        "buy-buttons"
+      ],
+      "settings": {
+        "full_width": false,
+        "product": "crikbuzz-combo-pack-of-loafer-socks-beer-can-cover-grey",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "166442457738b23caf-0": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "166442457738b23caf-1": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "166442457738b23caf-2": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166442457738b23caf-0",
+        "166442457738b23caf-1",
+        "166442457738b23caf-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "85a1d818-4532-488d-87ff-9a691abdb3ad",
+    "image-link-blocks",
+    "collection-list",
+    "featured-collection",
+    "media-grid",
+    "multiple-images-with-text",
+    "featured-product",
+    "faq"
+  ]
+}
