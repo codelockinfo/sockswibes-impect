@@ -316,6 +316,12 @@
         "heading_gradient": ""
       }
     },
+    "6b3c4c19-0015-419c-85dd-116216a37e74": {
+      "type": "popularsections",
+      "settings": {
+        "title": "popularsection"
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -654,6 +660,7 @@
     "6eb3112f-a909-4792-b41d-eca565081326",
     "image-link-blocks",
     "collection-list",
+    "6b3c4c19-0015-419c-85dd-116216a37e74",
     "featured-collection",
     "media-grid",
     "multiple-images-with-text",
