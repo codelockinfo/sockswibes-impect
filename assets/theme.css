@@ -9982,12 +9982,11 @@ i.fa.fa-instagram{
     width: 25%;
     max-width: 100%;
 }
-.footer__block-list{
+.clsfottertarget .footer__block-list{
   flex-wrap: wrap;
+     gap: unset;
 }
-.clsfottertarget  .footer__wrapper{
-      gap: unset;
-}
+
 @media only screen and (max-width: 1024px) {
 .desktop{
       display: none;
