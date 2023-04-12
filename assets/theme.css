@@ -9916,6 +9916,18 @@ split-lines {
     padding: 10px;
     border-radius: 50%;
 }
+.subtitle {
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+}
+.lemtitle {
+    font-size: 72px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 80px;
+}
 
 
 /* cls007 end */
