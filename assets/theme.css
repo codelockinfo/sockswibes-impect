@@ -9957,10 +9957,15 @@ split-lines {
     border-radius: 50px;
 }
 
-
+.mobileversion{
+     display: none;
+}
 @media only screen and (max-width: 1024px) {
-  body {
-    background-color: lightblue;
+.desktop{
+      display: none;
+}
+  .mobileversion{
+        display: block;
   }
 }
 /* cls007 end */
