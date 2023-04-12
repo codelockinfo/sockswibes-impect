@@ -77,8 +77,8 @@
     <a href="#main" class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
     {%- if request.page_type != 'password' -%}
-      {%- section 'announcement-bar' -%}
       {%- section 'header' -%}
+      {%- section 'announcement-bar' -%}
       {%- section 'newsletter-popup' -%}
 
       {%- if settings.cart_type != 'page' and request.page_type != 'cart' -%}
