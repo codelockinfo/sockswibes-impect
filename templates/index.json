@@ -318,6 +318,42 @@
     },
     "6b3c4c19-0015-419c-85dd-116216a37e74": {
       "type": "popularsections",
+      "blocks": {
+        "fb4c4e65-1473-4329-bb3f-a5c950018c99": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_a8f3538d-53eb-47fd-9027-b17680868545.webp",
+            "subtitle": ""
+          }
+        },
+        "c3c75571-4aef-4901-9dd5-c609e66c832f": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_7b02eacd-12c0-498f-9ce7-0f589d23fd2b.webp",
+            "subtitle": ""
+          }
+        },
+        "489e6b40-7c43-4dad-ab6e-e64e51d227ae": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_1c8044fa-b7d4-43d4-8a98-7da8b45b357d.webp",
+            "subtitle": ""
+          }
+        },
+        "8d0fd1a7-b717-4540-81dd-0dbfe950fadd": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_1c8044fa-b7d4-43d4-8a98-7da8b45b357d.webp",
+            "subtitle": ""
+          }
+        }
+      },
+      "block_order": [
+        "fb4c4e65-1473-4329-bb3f-a5c950018c99",
+        "c3c75571-4aef-4901-9dd5-c609e66c832f",
+        "489e6b40-7c43-4dad-ab6e-e64e51d227ae",
+        "8d0fd1a7-b717-4540-81dd-0dbfe950fadd"
+      ],
       "settings": {
         "lemotitle": "lemme get real results",
         "lenosub": "The twist? So delicious you won't believe they're good for you."
