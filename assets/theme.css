@@ -9969,11 +9969,11 @@ split-lines {
 }
 .socialogistic i {
     font-size: 25px;
-    background-color: #000;
-    color: #efe5da;
+    background-color: #efe5da;
     padding: 10px 15px;
     margin-right: 20px;
     border-radius: 50px;
+    color: #000;
 }
 i.fa.fa-instagram{
       padding: 10px 12px;
