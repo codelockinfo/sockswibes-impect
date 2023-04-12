@@ -9980,6 +9980,13 @@ i.fa.fa-instagram{
 }
 .footer__block.footer__block--menu {
     width: 25%;
+    max-width: 100%;
+}
+.footer__block-list{
+  flex-wrap: wrap;
+}
+.clsfottertarget  .footer__wrapper{
+      gap: unset;
 }
 @media only screen and (max-width: 1024px) {
 .desktop{
