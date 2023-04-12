@@ -64,7 +64,7 @@
           "cd58a72b-3b54-4996-a2f7-6a6f69bef9b2"
         ],
         "settings": {
-          "enable_sticky": false,
+          "enable_sticky": true,
           "text_size": "text-xs",
           "navigation_mode": "scrolling",
           "scrolling_speed": 10,
