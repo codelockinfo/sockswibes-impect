@@ -9960,6 +9960,21 @@ split-lines {
 .mobileversion{
      display: none;
 }
+.mainsocialflex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 25%;
+    justify-content: center;
+}
+.socialogistic i {
+    font-size: 25px;
+    background-color: #000;
+    color: #efe5da;
+    padding: 10px 15px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
 @media only screen and (max-width: 1024px) {
 .desktop{
       display: none;
