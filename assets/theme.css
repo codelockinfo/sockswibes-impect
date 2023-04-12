@@ -9898,6 +9898,12 @@ split-lines {
     flex-wrap: wrap;
     margin: 0 -10px;
 }
+.signlineflex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
 
 
 /* cls007 end */
