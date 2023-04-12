@@ -9988,7 +9988,9 @@ i.fa.fa-instagram{
 }
 .clsfottertarget .footer__block--newsletter{
       margin-top: 4%;
-
+}
+.marquee-text.announcement-bar__scrolling-list .shape-circle{
+      width: auto;
 }
 @media only screen and (max-width: 1024px) {
 .desktop{
