@@ -9860,3 +9860,11 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+
+
+/* cls007 start */
+.shopify-section--media-with-text{
+  background-color: #efe5da;
+}
+
+/* cls007 end */
