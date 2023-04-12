@@ -9872,5 +9872,7 @@ split-lines {
 .customedia  .break-all{
   text-align: left;
 }
-
+.customedia .button--xl{
+      border-radius: inherit;
+}
 /* cls007 end */
