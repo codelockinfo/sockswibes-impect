@@ -79,12 +79,12 @@
             "content": "<p>Pour les hommes comme-vous, c'est classique, sobre et chic<\/p>",
             "link_text": "COMMANDANDER DES 19$",
             "link_url": "",
-            "background": "#000000",
+            "background": "#efe5da",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#100f0d",
             "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
+            "button_background": "#100f0d",
+            "button_text_color": "#ffffff"
           }
         }
       },
