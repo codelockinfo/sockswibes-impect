@@ -9918,7 +9918,7 @@ split-lines {
     padding-left: 10px;
     font-weight: 600;
 }
-.signlineflex i {
+.signlineflex i, .signlineflexdesign i {
     color: #fff;
     background-color: #bc6c25;
     padding: 10px;
