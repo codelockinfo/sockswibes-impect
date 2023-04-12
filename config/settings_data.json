@@ -210,12 +210,20 @@
               "menu": "info-livraison",
               "show_menu_title": true
             }
+          },
+          "a0cb8e7b-f636-4f25-bdf3-cd50b27db154": {
+            "type": "socialicon",
+            "settings": {
+              "iconurl1": "",
+              "iconurl2": ""
+            }
           }
         },
         "block_order": [
           "c8af5015-6e7f-4017-b185-615ca62cac88",
           "030a3541-3fc0-4942-8fbc-6f2ab8e2c54d",
-          "6ac2d87d-c43d-429d-a368-fc26ceda5460"
+          "6ac2d87d-c43d-429d-a368-fc26ceda5460",
+          "a0cb8e7b-f636-4f25-bdf3-cd50b27db154"
         ],
         "settings": {
           "show_social_media": true,
