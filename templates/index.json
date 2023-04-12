@@ -615,6 +615,36 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "6eb3112f-a909-4792-b41d-eca565081326": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "crikbuzz-combo-pack-of-loafer",
+          "crikbuzz-combo-pack-of-loafer-socks-beer-can-cover-black",
+          "crikbuzz-combo-pack-of-loafer-socks-beer-can-cover-grey",
+          "crikbuzz-combo-pack-of-loafer-socks-beer-can-cover-red"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -627,6 +657,7 @@
     "media-grid",
     "multiple-images-with-text",
     "featured-product",
-    "faq"
+    "faq",
+    "6eb3112f-a909-4792-b41d-eca565081326"
   ]
 }
