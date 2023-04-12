@@ -106,21 +106,13 @@
         "114fae87-3ae5-4858-9bea-ee0c2e2671f4": {
           "type": "heading",
           "settings": {
-            "text": "19€",
-            "heading_tag": "h2"
-          }
-        },
-        "f797d67f-3260-4cc1-8b85-d24d97d2dbf2": {
-          "type": "heading",
-          "settings": {
-            "text": "2 PAIRES",
+            "text": "19€ <br> 2 PAIRES",
             "heading_tag": "h2"
           }
         }
       },
       "block_order": [
-        "114fae87-3ae5-4858-9bea-ee0c2e2671f4",
-        "f797d67f-3260-4cc1-8b85-d24d97d2dbf2"
+        "114fae87-3ae5-4858-9bea-ee0c2e2671f4"
       ],
       "settings": {
         "full_width": true,
