@@ -9978,6 +9978,9 @@ split-lines {
 i.fa.fa-instagram{
       padding: 10px 12px;
 }
+.footer__block.footer__block--menu {
+    width: 25%;
+}
 @media only screen and (max-width: 1024px) {
 .desktop{
       display: none;
