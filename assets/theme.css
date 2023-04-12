@@ -9904,6 +9904,18 @@ split-lines {
     flex-wrap: wrap;
     padding: 10px;
 }
+.subtosubtitle {
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.signlineflex i {
+    color: #fff;
+    background-color: #bc6c25;
+    padding: 10px;
+    border-radius: 50%;
+}
 
 
 /* cls007 end */
