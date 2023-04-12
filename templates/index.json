@@ -250,6 +250,7 @@
     },
     "collection-list": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "collection-1": {
           "type": "collection",
@@ -498,6 +499,7 @@
     },
     "multiple-images-with-text": {
       "type": "multiple-images-with-text",
+      "disabled": true,
       "blocks": {
         "1664424486a2b084ab-0": {
           "type": "item",
