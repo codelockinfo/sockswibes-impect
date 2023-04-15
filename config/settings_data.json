@@ -84,7 +84,7 @@
           "logo_mobile_max_width": 100,
           "menu": "socksmenu",
           "sidebar_menu": "",
-          "secondary_menu": "",
+          "secondary_menu": "footer",
           "menu_open_trigger": "click",
           "opening_from": "bottom",
           "layout": "logo_center_navigation_inline",
