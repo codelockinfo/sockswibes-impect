@@ -84,7 +84,7 @@
           "logo_mobile_max_width": 100,
           "menu": "socksmenu",
           "sidebar_menu": "",
-          "secondary_menu": "menu2",
+          "secondary_menu": "en-savoir-plus-1",
           "menu_open_trigger": "click",
           "opening_from": "bottom",
           "layout": "logo_center_navigation_inline",
@@ -217,7 +217,7 @@
           "030a3541-3fc0-4942-8fbc-6f2ab8e2c54d": {
             "type": "links",
             "settings": {
-              "menu": "menu2",
+              "menu": "en-savoir-plus-1",
               "show_menu_title": true
             }
           },
