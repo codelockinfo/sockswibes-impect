@@ -690,6 +690,38 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "46dd230d-d4e5-42fa-9afe-7bba9fdcf521": {
+      "type": "video",
+      "blocks": {
+        "template--18556706652433__46dd230d-d4e5-42fa-9afe-7bba9fdcf521-1682339078872727b0-0": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "template--18556706652433__46dd230d-d4e5-42fa-9afe-7bba9fdcf521-1682339078872727b0-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18556706652433__46dd230d-d4e5-42fa-9afe-7bba9fdcf521-1682339078872727b0-0",
+        "template--18556706652433__46dd230d-d4e5-42fa-9afe-7bba9fdcf521-1682339078872727b0-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/IMG_3765 3.MOV",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -704,6 +736,7 @@
     "media-grid",
     "multiple-images-with-text",
     "featured-product",
-    "faq"
+    "faq",
+    "46dd230d-d4e5-42fa-9afe-7bba9fdcf521"
   ]
 }
